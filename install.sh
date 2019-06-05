@@ -204,7 +204,7 @@ set_systemd() {
         read -p "请输入面板登录用户名[默认${user}]：" user
         read -p "请输入面板登录密码[默认${pwd}]：" pwd
         if [[ -z "${port}" ]]; then
-            port=80
+            port=8080
         fi
         if [[ -z "${user}" ]]; then
             user="sprov"
